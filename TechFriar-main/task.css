@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-one{
+    background-color: #2E333A;
+    width: 1349px;
+    height: 740px;
+}
+.LogoOne{
+    width: 200px;
+    height: 60.81px;
+    margin-left: 50px;
+    margin-top: 14px;
+    margin-right: 245px;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    overflow: hidden;
+    position: absolute;
+    background: var(--Dark-colour, #2E333A);
+    box-shadow: 6.22302px 6.22302px 18.66907px 0px #000, -6.22302px -6.22302px 18.66907px 0px #3B4451;
+}
+
+.search-input{
+    width: 296px;
+    height: 30px;
+    margin-top: 29px;
+    padding: 7px 10px;
+    border-radius: 12px;
+    border: none;
+    color: #fff;
+    border-radius: 15px;
+    background: var(--Dark-colour, #2E333A);
+    box-shadow: 3.73381px 3.73381px 6.22302px 0px #000 inset, -6.22302px -6.22302px 6.22302px 0px #3B4451 inset;
+}
+
+.iconOne{
+    margin-left: -35px;
+    margin-top: 10px;
+}
+
+.nav-icons{
+    display: inline-block; /* Ensure the button takes up only as much width as needed */
+    padding: 10px 20px;    /* Adjust padding as needed */
+    background-color: #2E333A;
+    width: 30px;
+    height: 34px;
+    margin-top: 29px;
+    margin-right: 20px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+}
+
+.icons{
+    margin-top: -4px;
+    margin-left: 152px;
+}
+
+.Profile{
+    width: 60px;
+    height: 55px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.side-nav{
+    width: 88px;
+    height: 460px;
+    top: 114px;
+    position: fixed;
+    display: flex;
+    padding: 25px 0px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    gap: 11px;
+    border-radius: 0px 25px 25px 0px;
+    background: var(--Dark-colour, #2E333A);
+    box-shadow: 6.22302px 6.22302px 18.66907px 0px #000, -6.22302px -6.22302px 18.66907px 0px #3B4451;
+}
+
+.side-nav-icons-imp{
+    width: 28px;
+    height: 29px;
+    margin-left: -11px;
+    padding: 15px;
+    border-radius: 12px;
+    border-radius: 12px;
+    background: var(--Dark-colour, #2E333A);
+    box-shadow: 3.73381px 3.73381px 6.22302px 0px #000 inset, -6.22302px -6.22302px 6.22302px 0px #3B4451 inset;
+}
+
+
+.side-nav-icons{
+    width: 28px;
+    height: 29px;
+    margin-left: -11px;
+    margin-top: -2px;
+    padding: 15px;
+    border-radius: 12px;
+    background: var(--Dark-colour, #2E333A);
+    box-shadow: 6.22302px 6.22302px 18.66907px 0px #000, -6.22302px -6.22302px 18.66907px 0px #3B4451;
+    cursor: pointer;
+    transition: .7s;
+}
+
+.side-nav-icons:hover{
+    border-radius: 12px;
+    background: var(--Dark-colour, #2E333A);
+    box-shadow: 3.73381px 3.73381px 6.22302px 0px #000 inset, -6.22302px -6.22302px 6.22302px 0px #3B4451 inset;
+}
+
+.main-contents{
+    display: flex;
+    top: 129px;
+    left: 168px;
+    width: 1134px;
+    height: 442px;
+    justify-content: center;
+    position: relative;
+}
+
+.forecast{
+    display: flex;
+    width: 257px;
+    height: 341px;
+    padding: 25px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: -184px;
+    margin-top: 27px;
+    border-radius: 25px;
+    background: var(--Dark-colour, #2E333A);
+    box-shadow: -7px -7px 30px 0px #262E32, 14px 14px 40px 0px rgba(16, 16, 18, 0.75);
+}
+
+.head-one{
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: normal;
+    margin-top: 39px;
+}
+
+h4{
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.imp{
+    color: var(--Secondary-Blue, #0ED2F6);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+p{
+    color: #B8F1FC;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.imp-one{
+    color: #B2C2CB;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.imp-two{
+    color: #B2C2CB;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: -1px;
+    line-height: 130%
+}
+
+.imp-three{
+    color: #0ED2F6;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: -1px;
+}
+
+.p-imp-one{
+    color: #B8F1FC;
+    font-family: 'Poppins', sans-serif;
+    font-size: 8px;
+}
+
+.div-one,.div-three,.div-five{
+    display: flex;
+}
+
+.div-two,.div-four{
+    margin-left: 15px;
+}
+
+.columns{
+    width: 668px;
+    height: 355px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.column-two{
+    width: 668px;
+    height: 355px;
+    display: flex;
+    margin-top: -150px;
+    margin-left: 50px;
+}
+
+.col-one{
+    background-color: #2E333A;
+    width: 192px;
+    height: 124px;
+    margin-right: 10px;
+    border-radius: 18px;
+    padding: 30px;
+    box-shadow: 6.22302px 6.22302px 18.66907px 0px #000, -6.22302px -6.22302px 18.66907px 0px #3B4451;
+}
+
+.col-image{
+    width: 40px;
+    height: 40px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    display: flex;
+    padding: 4px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+}
+
+.heart-img{
+    width: 10px;
+    height: 10px;
+}
+
+.col-div-two{
+    display: flex;
+    gap: 5px;
+}
+
+.col-text-one{
+    color: #fff;
+    font-weight: 400px;
+    font-size: 18px;
+    margin-top: 1px;
+}
+
+.col-div-two{
+    margin-top: -5px;
+}
+
+.rate-one{
+    color: #DA3922;
+}
+
+.rate-one-blue{
+    color: #0ED2F6;
+}
+
+.col-div-three{
+    display: flex;
+    gap: 10px;
+    margin-top: 1px;
+}
+
+.graph-col-one{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    gap: 10px;
+}
+
+.value-today{
+    color: #DA3922;
+}
+
+.value-today-blue{
+    color: #0ED2F6;
+}
+
+.graph-red{
+    margin-top: 10px;
+}
+
+.USD-value{
+    color: #B2C2CB;
+    font-size: 10px;
+}
+
+.main-columns{
+    display: block;
+}
